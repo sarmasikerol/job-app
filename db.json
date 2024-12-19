@@ -1,33 +1,6 @@
 {
   "jobs": [
     {
-      "position": "Frontend Developer",
-      "company": "Microsoft",
-      "location": "Redmond",
-      "status": "Reddedildi",
-      "type": "Uzaktan",
-      "id": "d87a9143-58b7-4c65-b0ae-fa18add8c921",
-      "date": 1712307002424
-    },
-    {
-      "position": "Data Analyst",
-      "company": "Coca Cola",
-      "location": "Menlo Park",
-      "status": "Devam Ediyor",
-      "type": "Uzaktan",
-      "id": "c1c7f9d1-dcf4-4b51-994f-499f8710f072",
-      "date": 1714602002418
-    },
-    {
-      "position": "Product Manager",
-      "company": "Udemig",
-      "location": "Redmond",
-      "status": "Reddedildi",
-      "type": "Yarı Zamanlı",
-      "id": "6b94a2d3-0571-412b-81e0-910d99a2f057",
-      "date": 1712607002328
-    },
-    {
       "position": "Product Manager",
       "company": "IBM",
       "location": "Redmond",
@@ -116,6 +89,42 @@
       "status": "Devam Ediyor",
       "type": "Yarı Zamanlı",
       "date": 1726341661676
+    },
+    {
+      "id": "40a7",
+      "position": "ee",
+      "company": "ee",
+      "location": "ee",
+      "status": "Mülakat",
+      "type": "Uzaktan",
+      "date": 1734602962340
+    },
+    {
+      "id": "e0e6",
+      "position": "ee",
+      "company": "ee",
+      "location": "ee",
+      "status": "Mülakat",
+      "type": "Uzaktan",
+      "date": 1734602966417
+    },
+    {
+      "id": "d689",
+      "position": "Marka",
+      "company": "Marka",
+      "location": "MArka",
+      "status": "Reddedildi",
+      "type": "Yarı Zamanlı",
+      "date": 1734603429483
+    },
+    {
+      "id": "36e0",
+      "position": "Marka",
+      "company": "Marka",
+      "location": "MArka",
+      "status": "Reddedildi",
+      "type": "Yarı Zamanlı",
+      "date": 1734603505264
     }
   ]
 }

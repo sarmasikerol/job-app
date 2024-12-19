@@ -1,6 +1,24 @@
-const Button = () => {
+import { useDispatch } from "react-redux";
+import api from "../../api";
+import { deleteJob } from "../../redux/slices/jobSlice";
+import { toast } from "react-toastify";
+
+const Button = ({ id }) => {
+  const dispatch = useDispatch();
+
+  const handleDelete = () => {
+    if (!confirm("Silmek istediğinizden emin misiniz?")) return;
+
+    api
+      .delete(`/jobs/${id}`)
+      .then((res) => {
+        dispatch(deleteJob(id));
+        toast.warning("Başvuru Kaldırıldı");
+      })
+      .catch((err) => console.log(err));
+  };
   return (
-    <button className="bin-button">
+    <button onClick={handleDelete} className="bin-button">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

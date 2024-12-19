@@ -13,10 +13,15 @@ const App = () => {
   useEffect(() => {
     dispatch(setLoading());
     api
-      .get("/jobs")
+      .get("/jobs", {
+        params: {
+          _sort: "date",
+          _order: "desc",
+        },
+      })
       .then((res) => dispatch(setJobs(res.data)))
       .catch((err) => dispatch(setError(err.message)));
-  },[]);
+  }, []);
   return (
     <BrowserRouter>
       <Header />
